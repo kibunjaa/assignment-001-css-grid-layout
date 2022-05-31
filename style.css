@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+    font-style: normal;
+    font-size: medium;
+    font-weight: 600;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 0.3fr 1.2fr 0.3fr;
+    grid-template-areas: 
+    "nav nav nav "
+    "leftsidebar maincontent rightsidebar"
+    "footer footer footer"
+    ;
+    grid-gap: 6px;
+}
+nav{
+    background-color: #FE8515;
+    grid-area: nav;
+}
+#LEFTSIDEBAR{
+    background-color: #7FC242;
+    grid-area: leftsidebar;
+    border-radius: 10px;
+}
+#MAINCONTENT{
+    background-color: #8BF10A;
+    grid-area: maincontent;
+    border-radius: 10px;
+}
+#RIGHTSIDEBAR{
+    background-color: #7FC242;
+    grid-area: rightsidebar;
+}
+footer{
+    background-color: #F57E20;
+    grid-area: footer;
+}
