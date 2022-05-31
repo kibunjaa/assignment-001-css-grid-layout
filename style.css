@@ -18,22 +18,27 @@
 nav{
     background-color: #FE8515;
     grid-area: nav;
+    line-height: 15;
 }
 #LEFTSIDEBAR{
     background-color: #7FC242;
     grid-area: leftsidebar;
     border-radius: 10px;
+    line-height: 20;
 }
 #MAINCONTENT{
     background-color: #8BF10A;
     grid-area: maincontent;
     border-radius: 10px;
+    line-height: 20;
 }
 #RIGHTSIDEBAR{
     background-color: #7FC242;
     grid-area: rightsidebar;
+    line-height: 20;
 }
 footer{
     background-color: #F57E20;
     grid-area: footer;
+    line-height: 9;
 }
